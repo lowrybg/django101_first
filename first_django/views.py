@@ -7,4 +7,4 @@ def index(req):
 
 
 def test_example(request):
-    return HttpResponse( "Test http response")
+    return HttpResponse(request, 'Test http response')
